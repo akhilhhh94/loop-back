@@ -3,6 +3,12 @@
 This application is generated using [LoopBack 4 CLI](https://loopback.io/doc/en/lb4/Command-line-interface.html) with the
 [initial project layout](https://loopback.io/doc/en/lb4/Loopback-application-layout.html).
 
+## Mysql
+
+```sh
+docker run --name some-mysql -v /home/toffu/Documents/temp1/Db:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=password -d -p 3306:3306  mysql:latest
+```
+
 ## Install dependencies
 
 By default, dependencies were installed when this application was generated.
