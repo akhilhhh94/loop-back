@@ -1,11 +1,12 @@
 {
   "ids": {
-    "Product": 3
+    "Product": 4
   },
   "models": {
     "Product": {
       "1": "{\"name\":\"akhil hh\",\"age\":12,\"id\":1}",
-      "2": "{\"name\":\"hhhhhhhhhhhhhhhhhhhhhhhhhh\",\"age\":33,\"id\":2,\"address\":\"string\",\"additionalProp1\":{}}"
+      "2": "{\"name\":\"hhhhhhhhhhhhhhhhhhhhhhhhhh\",\"age\":33,\"id\":2,\"address\":\"string\",\"additionalProp1\":{}}",
+      "3": "{\"name\":\"hhhhhhhhhhhhhhh\",\"age\":40,\"address\":\"string\",\"studentId\":1,\"id\":3}"
     }
   }
 }

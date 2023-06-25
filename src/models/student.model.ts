@@ -1,4 +1,5 @@
-import {Entity, model, property} from '@loopback/repository';
+import {Entity, model, property, hasMany} from '@loopback/repository';
+import {Product} from './product.model';
 
 @model({settings: {strict: false}})
 export class Student extends Entity {
@@ -21,6 +22,8 @@ export class Student extends Entity {
   })
   course: string;
 
+  @hasMany(() => Product)
+  products: Product[];
   // Define well-known properties here
 
   // Indexer property to allow additional data

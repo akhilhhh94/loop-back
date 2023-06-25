@@ -26,6 +26,10 @@ export class Product extends Entity {
   })
   address?: string;
 
+  @property({
+    type: 'number',
+  })
+  studentId?: number;
   // Define well-known properties here
 
   // Indexer property to allow additional data
