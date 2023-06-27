@@ -9,6 +9,14 @@ This application is generated using [LoopBack 4 CLI](https://loopback.io/doc/en/
 docker run --name some-mysql -v /home/toffu/Documents/temp1/Db:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=password -d -p 3306:3306  mysql:latest
 ```
 
+# Learning
+
+- https://loopback.io/doc/en/lb4/Context.html Context API
+- Keep spef files in a seporate folder
+- dependacy injection
+- https://loopback.io/doc/en/lb4/Sequence.html sequence
+- https://loopback.io/doc/en/lb4/Interceptor.html
+
 ## Install dependencies
 
 By default, dependencies were installed when this application was generated.
@@ -73,9 +81,3 @@ npm run lint:fix
 npm test
 ```
 
-## What's next
-
-Please check out [LoopBack 4 documentation](https://loopback.io/doc/en/lb4/) to
-understand how you can continue to add features to this application.
-
-[![LoopBack](https://github.com/loopbackio/loopback-next/raw/master/docs/site/imgs/branding/Powered-by-LoopBack-Badge-(blue)-@2x.png)](http://loopback.io/)
